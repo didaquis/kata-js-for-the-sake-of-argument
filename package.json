@@ -1,0 +1,26 @@
+{
+  "name": "kata-js-for-the-sake-of-argument",
+  "version": "0.0.1",
+  "description": "kata js for the sake of argument",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jasmine spec/*.js",
+    "test:watch": "nodemon  --exec 'jasmine \"spec/*.js\"'"
+  },
+  "keywords": [
+    "kata",
+    "JavaScript",
+    "for",
+    "the",
+    "sake",
+    "of",
+    "argument"
+  ],
+  "author": "Dídac García",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "^3.2.0",
+    "nodemon": "^1.18.4"
+  }
+}
