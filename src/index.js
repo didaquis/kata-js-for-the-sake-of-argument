@@ -1,13 +1,11 @@
 function numbers(...arg) {
-
 	if (arg.length === 0) {
 		return false;
 	}
 
 	let result = true;
-
-	for(let i = 0; i < arg.length; i++){
-		if (typeof arg[i] !== 'number') {
+	for (let argument of arguments){
+		if (typeof argument !== 'number') {
 			result = false;
 		}
 	}
