@@ -33,7 +33,7 @@ describe('numbers test', () => {
 		expect(numbers(1, "a", 3)).toBe(false);
 	});
 
-	it('numbers should return false if not receie any parameter', () => {
+	it('numbers should return false if not receive any parameter', () => {
 		expect(numbers()).toBe(false);
 	});
 });
